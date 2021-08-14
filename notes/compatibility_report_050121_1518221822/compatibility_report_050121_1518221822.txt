@@ -1,0 +1,158 @@
+Convirtiendo script GML: ${project_dir}\scripts\trace\trace.gml
+Descripción convertida /// @description  trace(...)/// @param ...
+
+Convirtiendo script GML: ${project_dir}\scripts\draw_rect_ext\draw_rect_ext.gml
+Descripción convertida /// @description  draw_rect_ext(x, y, w, h, c, a)/// @param x
+/// @param  y
+/// @param  w
+/// @param  h
+/// @param  c
+/// @param  a
+
+Convirtiendo script GML: ${project_dir}\scripts\parameter_string_all\parameter_string_all.gml
+Cadena convertida - línea 7: '"' -> "\""
+Cadena convertida - línea 7: '"' -> "\""
+
+Convirtiendo script GML: ${project_dir}\scripts\steam_get_user_persona_name_w\steam_get_user_persona_name_w.gml
+Descripción convertida /// @description  steam_get_user_persona_name_w(steam_id)/// @param steam_id
+
+Convirtiendo script GML: ${project_dir}\scripts\buffer_print_hex\buffer_print_hex.gml
+Descripción convertida /// @description  buffer_print_hex(buffer, start, length)/// @param buffer
+/// @param  start
+/// @param  length
+
+Convirtiendo script GML: ${project_dir}\scripts\keyboard_check_pressed_nc\keyboard_check_pressed_nc.gml
+Descripción convertida /// @description  keyboard_check_pressed_nc(key)/// @param key
+
+Convirtiendo script GML: ${project_dir}\scripts\buffer_write_int64\buffer_write_int64.gml
+Descripción convertida /// @description  buffer_write_int64(buffer, long_int)/// @param buffer
+/// @param  long_int
+
+Convirtiendo script GML: ${project_dir}\scripts\buffer_read_int64\buffer_read_int64.gml
+Descripción convertida /// @description  buffer_read_int64(buffer)/// @param buffer
+
+Convirtiendo script GML: ${project_dir}\scripts\packet_start\packet_start.gml
+Descripción convertida /// @description  packet_start(type)/// @param type
+
+Convirtiendo script GML: ${project_dir}\scripts\packet_send_to\packet_send_to.gml
+Descripción convertida /// @description  packet_send(to, buf)/// @param to
+/// @param  buf
+
+Convirtiendo script GML: ${project_dir}\scripts\packet_send_all\packet_send_all.gml
+Descripción convertida /// @description  packet_send_all(buf)/// @param buf
+
+Convirtiendo script GML: ${project_dir}\scripts\packet_send_except\packet_send_except.gml
+Descripción convertida /// @description  packet_send_except(buf, except_to_id)/// @param buf
+/// @param  except_to_id
+
+Convirtiendo script GML: ${project_dir}\scripts\packet_handle_leaving\packet_handle_leaving.gml
+Descripción convertida /// @description  packet_handle_leaving(steam_id)/// @param steam_id
+
+Convirtiendo script GML: ${project_dir}\scripts\chat_add\chat_add.gml
+Descripción convertida /// @description  chat_add(text)/// @param text
+Cadena convertida - línea 14: "\#" -> "\\#"
+
+Convirtiendo script GML: ${project_dir}\scripts\chat_clear\chat_clear.gml
+Descripción convertida /// @description  chat_clear()
+
+Convirtiendo script GML: ${project_dir}\scripts\chat_draw\chat_draw.gml
+Cadena incluida - línea 9: view_xview -> __view_get( e__VW.XView, 0 )
+Cadena incluida - línea 10: view_yview -> __view_get( e__VW.YView, 0 )
+Cadena incluida - línea 11: view_wview -> __view_get( e__VW.WView, 0 )
+Cadena incluida - línea 12: view_hview -> __view_get( e__VW.HView, 0 )
+Descripción convertida /// @description  chat_draw()
+Cadena convertida - línea 36: "\#" -> "\\#"
+
+Convirtiendo script GML: ${project_dir}\scripts\chat_draw_item\chat_draw_item.gml
+Descripción convertida /// @description  chat_draw_item(x, y, text, color, alpha, width)/// @param x
+/// @param  y
+/// @param  text
+/// @param  color
+/// @param  alpha
+/// @param  width
+
+Convirtiendo script GML: ${project_dir}\scripts\chat_init\chat_init.gml
+Cadena convertida - línea 1: 'global.chat_lines = ds_list_create();' -> "global.chat_lines = ds_list_create();"
+Cadena convertida - línea 2: 'global.chat_sent = ds_list_create();' -> "global.chat_sent = ds_list_create();"
+
+Convirtiendo script GML: ${project_dir}\scripts\chat_send\chat_send.gml
+Descripción convertida /// @description  chat_send(msg)/// @param msg
+
+!!! La fuente fnt_test usa una fuente (Ubuntu Condensed SemiItalic) no instalada en este sistema - La fuente NO se ha regenerado
+Se ha realizado una copia de seguridad de la textura de la fuente de GameMaker Studio 1 en ${project_dir}\fonts\fnt_test\fnt_test.gms1.png
+!!! La fuente fnt_name usa una fuente (cc.yal.6w4) no instalada en este sistema - La fuente NO se ha regenerado
+Se ha realizado una copia de seguridad de la textura de la fuente de GameMaker Studio 1 en ${project_dir}\fonts\fnt_name\fnt_name.gms1.png
+Convirtiendo script GML: ${project_dir}\objects\obj_game\Draw_0.gml
+Cadena incluida - línea 2: background_color -> __background_get_colour( )
+
+Se ha detectado una Linux ID de app de Steam: La ID de app de Steam está ahora en una ubicación - Opciones principales, asegúrese de que sea correcta
+Se ha detectado una Mac ID de app de Steam: La ID de app de Steam está ahora en una ubicación - Opciones principales, asegúrese de que sea correcta
+El script del instalador de Windows NSIS se ha pasado a predeterminado debido a cambios en GameMaker Studio 2
+Se ha detectado una Windows ID de app de Steam: La ID de app de Steam está ahora en una ubicación - Opciones principales, asegúrese de que sea correcta
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_id_create(high, low) : Creates an immutable Steam ID./// @param high
+/// @param  low
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_id_get_high(steam_id) : Returns higher 32 bits of a Steam ID/// @param steam_id
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_id_get_low(steam_id) : Returns lower 32 bits of a Steam ID/// @param steam_id
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_id_equals(id1, id2) : Returns whether two IDs match up./// @param id1
+/// @param  id2
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_id_from_int64(value) : Creates a Steam ID from an int64/// @param value
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_id_to_int64(steam_id) : Converts a Steam ID to int64/// @param steam_id
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_net_check_version() : Returns whether the DLL matches the extension version.
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_net_accept_p2p_session(user_id) : Accepts a P2P session with the given user. Should only be called in the "p2p_session_request" event./// @param user_id
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_net_close_p2p_session(user_id) : Closes the P2P session with the given user (if any)/// @param user_id
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_net_packet_get_sender_id() : Returns the sender ID (int64) of the last received packet.
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_net_packet_get_data(buffer) : Copies the current packet data to the given buffer./// @param buffer
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_net_packet_send(steam_id, buffer, size, type) : Sends a packet to the given destination./// @param steam_id
+/// @param  buffer
+/// @param  size
+/// @param  type
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_lobby_join_id(steam_id) : Joins the given lobby/// @param steam_id
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_lobby_get_owner_id() : Returns the user ID of the authoritative user in the lobby.
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_lobby_get_member_id(index) : Returns the user ID of the given user in the lobby./// @param index
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_lobby_list_get_lobby_id(index) : Returns the ID of the given lobby./// @param index
+
+Convirtiendo script GML: Steamworks.gml.gml
+Descripción convertida /// @description  steam_net_init_gml()
+
+Velocidad del juego fijada en 60
+Añadido el script de compatibilidad "background/__background_get_colour.gml"
+Añadido el script de compatibilidad "background/__background_get_colour_element.gml"
+Añadido el script de compatibilidad "background/__background_set_element.gml"
+Añadido el script de compatibilidad "instance/instance_create.gml"
+Añadido el script de compatibilidad "object/object_get_depth.gml"
+Añadido el script de compatibilidad "view/__view_get.gml"
+Añadido el script de compatibilidad "background/__init_background.gml"
+Añadido el script de compatibilidad "view/__init_view.gml"
+Añadido el script de compatibilidad "__init_global.gml"
+Añadido el script de compatibilidad "__global_object_depths.gml"

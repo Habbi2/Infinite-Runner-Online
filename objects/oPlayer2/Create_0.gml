@@ -1,0 +1,9 @@
+user = 0;
+hspd = 0;
+spd = 5;
+acceleration = 0.6;
+airAcceleration = 1.2;
+grav = 0.3;
+jForce = 10;
+vspd = 0;
+doubleJump = 1;
